@@ -67,10 +67,10 @@ while user_car != "0":
 
     print("Parking lot charges")
     print(f"type of the car : {user_car}")
-    print(f"time in: {in_hour}:{in_minute}")
-    print(f"time out: {out_hour}:{out_minute}")
-    print(f"parking time: {parking_hour}:{total_mins}")
-    print(f"rounded total : {rounded_hours} hours")
+    print(f"time in: {str(in_hour).zfill(2)}:{str(in_minute).zfill(2)}")
+    print(f"time out: {str(out_hour).zfill(2)}:{str(out_minute).zfill(2)}")
+    print(f"parking time: {parking_hour}:{str(total_mins).zfill(2)}")
+    print(f"rounded total : {str(rounded_hours).zfill(2)} hours")
     print(f"total charges: ")
     if user_car == "car":
         print(f"${payment:.2f}")
