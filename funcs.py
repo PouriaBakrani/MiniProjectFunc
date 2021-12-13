@@ -1,4 +1,4 @@
-def in_hour_checker(in_hour=-1 | int) -> int:
+def in_hour_checker(in_hour: int = -1) -> int:
     """
     This function get the entered `hour` to the gate from user
     and will check it if its between 0 to 24
@@ -10,7 +10,7 @@ def in_hour_checker(in_hour=-1 | int) -> int:
     return in_hour
 
 
-def in_minute_checker(in_minute=-1 | int) -> int:
+def in_minute_checker(in_minute: int = -1) -> int:
     """
     This function get the entered `minute` to the gate from user
     and will check it if its between 0 to 60
@@ -22,7 +22,7 @@ def in_minute_checker(in_minute=-1 | int) -> int:
     return in_minute
 
 
-def out_hour_checker(out_hour=-1 | int) -> int:
+def out_hour_checker(out_hour: int = -1) -> int:
     """
     This function get the left `hour` to the gate from user
     and will check it if its between 0 to 24
@@ -34,7 +34,7 @@ def out_hour_checker(out_hour=-1 | int) -> int:
     return out_hour
 
 
-def out_minute_checker(out_minute=-1 | int) -> int:
+def out_minute_checker(out_minute: int = -1) -> int:
     """
     This function get the left `minute` to the gate from user
     and will check it if its between 0 to 60
